@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="styles.css">
-</head>
 <body>
 
-<h1>Hello world!</h1>
-<p>This is the first file in my new Git Repo.</p>
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(4, 3);
+</script>
 
 </body>
 </html>
